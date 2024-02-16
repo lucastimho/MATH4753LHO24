@@ -1,3 +1,5 @@
+#' Binomial Distribution
+#' @description
 #' Sampling distribution showing relative frequency of the binomial samples with the given number of success
 #'
 #' @param iter number of iterations
