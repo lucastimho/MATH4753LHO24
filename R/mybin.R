@@ -8,7 +8,7 @@
 #' @export
 #'
 #' @examples mybin(iter=100, n=10, p=0.5)
-mybin=function(iter=100,n=10, p=0.5){
+mybin<-function(iter=100,n=10, p=0.5){
   # make a matrix to hold the samples
   #initially filled with NA's
   sam.mat=matrix(NA,nr=n,nc=iter, byrow=TRUE)
