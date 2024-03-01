@@ -2,7 +2,7 @@
 % Please edit documentation in R/mybin.R
 \name{mybin}
 \alias{mybin}
-\title{Sampling distribution showing relative frequency of the binomial samples with the given number of success}
+\title{Binomial Distribution}
 \usage{
 mybin(iter = 100, n = 10, p = 0.5)
 }

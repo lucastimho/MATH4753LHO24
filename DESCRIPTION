@@ -11,3 +11,6 @@ LazyData: true
 RoxygenNote: 7.3.1
 URL: https://github.com/lucastimho/MATH4753LHO24
 BugReports: https://github.com/lucastimho/MATH4753LHO24/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
