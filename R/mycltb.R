@@ -2,7 +2,7 @@
 #'
 #' @param n number of trials
 #' @param iter number of iterations
-#' @param p probablity of success
+#' @param p probability of success
 #'
 #' @return histogram of binomial sampling distributions
 #' @export
