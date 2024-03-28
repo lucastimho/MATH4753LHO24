@@ -32,7 +32,7 @@ mycltb=function(n,iter,p){
   ## freq=FALSE means take a density
   hist(w,freq=FALSE,  ylim=c(0,ymax),
        main=paste("Histogram of sample mean","\n", "sample size= ",n,sep=""),
-       xlab="Sample mean",...)
+       xlab="Sample mean")
   ## add a density curve made from the sample distribution
   #lines(density(w),col="Blue",lwd=3) # add a density plot
   ## Add a theoretical normal curve
