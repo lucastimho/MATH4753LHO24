@@ -7,7 +7,7 @@
 #' @return histogram of binomial sampling distributions
 #' @export
 #'
-#' @examples mycltb(n=4, iter=10000, p=0.3)
+#' @examples
 mycltb=function(n,iter,p){
 
   ## r-random sample from the Binomial

@@ -19,6 +19,3 @@ histogram of binomial sampling distributions
 \description{
 Central Limit Thereom apply to binomal distribution
 }
-\examples{
-mycltb(n=4, iter=10000, p=0.3)
-}
