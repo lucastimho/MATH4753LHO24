@@ -4,13 +4,12 @@
 #' @param x sample vector
 #' @param fun function to apply
 #' @param alpha error probability
-#' @param cx
-#' @param ...
+#' @param cx 1.5
 #'
-#' @return
+#' @return histogram of the functions
 #' @export
 #'
-#' @examples
+#' @examples myboot2(10000,x=rnorm(25,mean=25,sd=10),fun="mean",alpha=0.05,xlab="mean",col="Purple",cx=1.5)
 myboot2<-function(iter=10000,x,fun="mean",alpha=0.05,cx=1.5,...){  #Notice where the ... is repeated in the code
   n=length(x)   #sample size
 

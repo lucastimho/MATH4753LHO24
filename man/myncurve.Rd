@@ -19,3 +19,6 @@ plot and probability of density curved
 \description{
 Normal Curve
 }
+\examples{
+myncurve(2)
+}

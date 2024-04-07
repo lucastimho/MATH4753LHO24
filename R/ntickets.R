@@ -4,7 +4,7 @@
 #' @param gamma probability of overbooking
 #' @param p probability of attendence
 #'
-#' @return
+#' @return two plots of discrete distribution and continous distibution
 #' @export
 #'
 #' @examples ntickets(N = 400, gamma = 0.02, p = 0.05)

@@ -7,7 +7,7 @@
 #' @return plot and probability of density curved
 #' @export
 #'
-#' @examples
+#' @examples myncurve(2)
 myncurve <- function(q, mu=0, sigma=1){
   x = seq(-1e99, 1e99, length = 1000)
   curve(dnorm(x,mean=mu,sd=sigma), xlim = c(mu-3*sigma, mu + 3*sigma))

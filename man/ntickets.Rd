@@ -13,6 +13,9 @@ ntickets(N, gamma, p)
 
 \item{p}{probability of attendence}
 }
+\value{
+two plots of discrete distribution and continous distibution
+}
 \description{
 Calculates the number of tickets to be sold when given the number of seats, probability of attendance, and probability of overbooking
 }

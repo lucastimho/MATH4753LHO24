@@ -15,8 +15,14 @@ myboot2(iter = 10000, x, fun = "mean", alpha = 0.05, cx = 1.5, ...)
 
 \item{alpha}{error probability}
 
-\item{...}{}
+\item{cx}{1.5}
+}
+\value{
+histogram of the functions
 }
 \description{
 Boot function for sampling distributions
+}
+\examples{
+myboot2(10000,x=rnorm(25,mean=25,sd=10),fun="mean",alpha=0.05,xlab="mean",col="Purple",cx=1.5)
 }
