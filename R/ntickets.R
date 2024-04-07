@@ -20,7 +20,7 @@ ntickets <- function(N, gamma, p) {
   objective_discrete <- function(n) {
     return(N - qbinom(1 - gamma, n, p))
   }
-  plot(seq(N, N * 1.1, by = 1), objective_discrete(seq(N, N * 1.1, by = 1)), type='b', col="blue", xlab="n", ylab="Objective", main=paste("Objective vs n to find optimal tickets sold (", nd, ") gamma =", gamma, "N =", N, "discete"))
+  plot(seq(N, N * 1.1, by = 1), objective_discrete(seq(N, N * 1.1, by = 1)), type='b', col="blue", xlab="n", ylab="Objective", main=paste("Objective vs n to find optimal tickets sold \n(", nd, ") gamma =", gamma, "N =", N, "discete"))
   abline(h = 0, col = 'red', lty = 2)
   abline(v = nd, col= 'red', lty = 2)
 
@@ -34,7 +34,7 @@ ntickets <- function(N, gamma, p) {
   objective_continuous <- function(n) {
     return(N - qnorm(1 - gamma, mean = n * p, sd = sqrt(n * p * (1 - p))))
   }
-  plot(seq(N, N * 1.1, by = 0.5), objective_continuous(seq(N, N * 1.1, by = 0.5)), type='b', col="black", xlab="n", ylab="Objective", main=paste("Objective vs n to find optimal tickets sold (", nc, ") gamma =", gamma, "N =", N, "continuous"))
+  plot(seq(N, N * 1.1, by = 0.5), objective_continuous(seq(N, N * 1.1, by = 0.5)), type='b', col="black", xlab="n", ylab="Objective", main=paste("Objective vs n to find optimal tickets sold \n(", nc, ") gamma =", gamma, "N =", N, "continuous"))
   abline(h = 0, col = 'blue', lty = 2)
   abline(v = nc, col = 'blue', lty = 2)
 
